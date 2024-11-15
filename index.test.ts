@@ -1,11 +1,7 @@
 import {SquadMover} from "./kata/squad.mover";
 
 
-describe('Mars Rover Kata', () =>{
-
-    // it('should throw InvalidRoverInput on empty file', () => {
-    //     expect(() => new SquadMover('').move()).toThrow(InvalidRoverInput)
-    // })
+describe('Mars Rover Kata', () => {
 
     it('should return steady rover position', () => {
         const output = new SquadMover('5 5\n1 2 N').move()
